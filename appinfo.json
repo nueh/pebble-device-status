@@ -1,0 +1,23 @@
+{
+  "uuid": "5a949f11-4d98-4258-9a18-168c6f97f253",
+  "shortName": "Device status",
+  "longName": "Status",
+  "companyName": "tmnhy inc.",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "BT_STATE",
+        "file": "images/bt_state.png"
+      }
+    ]
+  }
+}
