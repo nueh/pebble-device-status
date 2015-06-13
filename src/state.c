@@ -6,7 +6,7 @@
 
 #define PERSIST_KEY 99
 
-#define ALERT_TIME 5
+#define ALERT_TIME 1
 
 
 static Window *window;
@@ -99,8 +99,9 @@ static void init(void) {
       .load = window_load,
       .unload = window_unload,
     });
-
+    #ifdef PBL_PLATFORM_APLITE
     window_set_fullscreen(window, true);
+    #endif
     window_stack_push(window, animated);
 
     AppLaunchReason app_reason = launch_reason();
