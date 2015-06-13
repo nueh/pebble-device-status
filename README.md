@@ -1,9 +1,9 @@
 # README #
 
-Pebble background worker.
-Show 5 sec. pop-up notifications, bluetooth and battery state:
-- battery icon, by wrist;
-- bluetooth icon, by change state.
+Pebble background worker.  
+Shows 5 sec. pop-up notifications for bluetooth and battery state:
+- battery icon by wrist/tap
+- bluetooth icon when phone connects/disconnects
 
-Runs in the background and do not depend on others running apps and faces.
-Takes one apps slot, require activation in "Activity" menu.
+Runs in the background and does not depend on other running apps and faces.
+Takes one app slot, requires activation in "Activity" menu.
